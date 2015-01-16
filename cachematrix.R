@@ -1,5 +1,5 @@
-## The two functions here look for the inverse of a matrix x.
-## If the inverse has been detected, it is taken from cache.
+## The two functions should create the inverse of a matrix x.
+## If the inverse is available in cache, it is taken from cache. otherwise calculated.
 
 ## makeCacheMatrix creates a special R object that first initializes a variable 'm'
 ## then provides a get() function to obtain a matrix. Also provides function
